@@ -1,0 +1,22 @@
+img{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jookroo{
+  background-color: rgb(91, 91, 91);
+  width: 300px;
+  color: aliceblue;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nav-item{
+  list-style: none ;
+  display: flex;
+  padding: 10px;
+}
