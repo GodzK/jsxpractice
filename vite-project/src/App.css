@@ -5,18 +5,27 @@ img{
   align-items: center;
 }
 .jookroo{
-  background-color: rgb(91, 91, 91);
   width: 300px;
   color: aliceblue;
 }
+.logo{
+  display: flex;
+ 
+}
 .nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
 
 }
 .nav-item{
-  list-style: none ;
+  justify-content: flex-end;
+  list-style: none;
   display: flex;
   padding: 10px;
+  
+}
+li{
+  color:aqua
 }

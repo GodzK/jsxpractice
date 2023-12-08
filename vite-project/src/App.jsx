@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM  from "react"
-import reactLogo from './assets/react.svg'
+
 import Ronaldophoto from './img/ronal.webp'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,8 +8,8 @@ import './App.css'
 function App() {
   return (
     <>
- 
-      <img src={Ronaldophoto}></img>
+
+      
       <h1>Fun fact about react</h1>
       <ul className='jookroo'>
         <li>was first release 2013</li>
