@@ -1,12 +1,26 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Quicksand-Medium.ttf);
+  font-weight: bold;
+}
+body{
+  background-color: rgb(70, 70, 70);
+}
 img{
-  width: 100px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .jookroo{
   width: 300px;
   color: aliceblue;
+}
+h3{
+  color: rgb(199, 253, 255);
+  padding-left: 20PX;
+  letter-spacing: 0.05em;
 }
 .logo{
   display: flex;
@@ -16,7 +30,7 @@ img{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+background-color: rgb(13, 15, 17);
 
 }
 .nav-item{
@@ -27,5 +41,13 @@ img{
   
 }
 li{
-  color:aqua
+  color:rgb(255, 255, 255)
 }
+a{
+  color: aliceblue;
+  
+}
+li::marker{
+color: aqua;
+}
+/* this is a point marker */
