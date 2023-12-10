@@ -1,9 +1,17 @@
-li{
-    color: white;
-}
-body{
-    background-color: black;
-}
-p{
-    color: azure;
-}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(68, 121, 201, 0.925);
+    transition: 0.3s;
+    width: 20%;
+  }
+  .card:hover {
+    
+    box-shadow: 0 8px 16px 0 rgba(206, 29, 29, 0.39);
+  }
+  .contact-card {
+    padding: 2px 16px;
+  }  
+  .card img {
+    width: 60%;
+    height: 60%;
+  }

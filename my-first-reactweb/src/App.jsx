@@ -1,15 +1,11 @@
-import React from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import CustomNav from './Nav.jsx'; 
-import CustomCard from './Card.jsx';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Data from "./data.jsx";
 
 function App() {
   return (
-    <div>
-      <CustomNav />
-      <CustomCard/>
+    <div className="contacts">
+      <Data/>
     </div>
   );
 }
