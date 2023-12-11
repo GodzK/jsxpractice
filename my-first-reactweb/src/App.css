@@ -1,17 +1,35 @@
 .card {
-    
-    box-shadow: 0 4px 8px 0 rgba(68, 121, 201, 0.925);
-    transition: 0.3s;
-    width: 20%;
-  }
-  .card:hover {
-    
-    box-shadow: 0 8px 16px 0 rgba(206, 29, 29, 0.39);
-  }
-  .contact-card {
-    padding: 2px 16px;
-  }  
-  .card img {
-    width: 60%;
-    height: 60%;
-  }
+  background-color: rgb(197, 197, 197);
+  box-shadow: 0 4px 8px 0 rgba(68, 121, 201, 0.925);
+  transition: 0.3s;
+  width: 20%;
+  border: 10px solid black; /* Specify border style */
+  box-sizing: border-box; /* Include border in width calculation */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(206, 29, 29, 0.39);
+}
+
+.contact-card {
+  padding: 20px; /* Add padding for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%; /* Use 100% width for responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Add space between image and text */
+}
+
+.contact-card h3 {
+  margin: 10px 0; /* Add margin to the heading */
+}
+
+.contact-card p {
+  margin: 0; /* Remove default margin for paragraph */
+}

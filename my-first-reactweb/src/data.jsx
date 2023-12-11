@@ -7,6 +7,7 @@ function data() {
     <Contact img="picture/ts.gif" name="Toji sening" gmail="toji@gmail.com"/>
     <Contact img="picture/skn.jpg" name="Sukuna"  gmail="sukuna@gmail.com"/>
     <Contact img="picture/gt.jpg" name="Geto suguru" gmail="geto@gmail.com"/>
+    
    </>
 
     
